@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ve2-Qm-mQm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ve2-Qm-mQm">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Login-->
+        <!--Login-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController title="Login" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -18,7 +18,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4K-7c-cKn">
                                 <rect key="frame" x="148" y="246" width="38" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.28627452254295349" green="0.24705883860588074" blue="0.95294123888015747" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
@@ -28,7 +27,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pre-Xe-GUp">
                                 <rect key="frame" x="139" y="397" width="57" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register">
                                     <color key="titleColor" red="0.28627452254295349" green="0.24705883860588074" blue="0.95294123888015747" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
@@ -38,19 +36,16 @@
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p50-Pf-d8G">
                                 <rect key="frame" x="85" y="145" width="164" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Ta-Sc-e2C">
                                 <rect key="frame" x="85" y="188" width="164" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NetConnect" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgO-Vz-WTZ">
                                 <rect key="frame" x="55" y="63" width="224" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="39"/>
                                 <color key="textColor" red="1" green="0.60392159223556519" blue="0.27843138575553894" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
@@ -64,7 +59,7 @@
             </objects>
             <point key="canvasLocation" x="524" y="207"/>
         </scene>
-        <!--View Controller - Resume-->
+        <!--Resume-->
         <scene sceneID="B8u-BY-TRB">
             <objects>
                 <viewController title="Resume" id="MTn-jB-iaV" sceneMemberID="viewController">
@@ -105,7 +100,7 @@
             </objects>
             <point key="canvasLocation" x="996" y="273"/>
         </scene>
-        <!--View Controller - Register-->
+        <!--Register-->
         <scene sceneID="cZt-pr-pq6">
             <objects>
                 <viewController title="Register" id="vpI-3Z-1JE" sceneMemberID="viewController">
@@ -119,34 +114,29 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hQj-lv-bOh">
                                 <rect key="frame" x="0.0" y="12" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Register" id="8vk-eq-MwT"/>
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="gbantau@gmail.com" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1KR-Rv-U0i">
                                 <rect key="frame" x="36" y="143" width="244" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Minimum 5 characters" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ly2-m0-KOs">
                                 <rect key="frame" x="36" y="195" width="244" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHG-Re-ntI">
                                 <rect key="frame" x="42" y="147" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4a-ER-27Y">
                                 <rect key="frame" x="42" y="199" width="76" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -159,7 +149,7 @@
             </objects>
             <point key="canvasLocation" x="470" y="1513"/>
         </scene>
-        <!--View Controller - Information-->
+        <!--Information-->
         <scene sceneID="vBv-g9-Br4">
             <objects>
                 <viewController title="Information" id="N3X-fy-fIS" sceneMemberID="viewController">
@@ -178,7 +168,7 @@
             </objects>
             <point key="canvasLocation" x="1580" y="2216"/>
         </scene>
-        <!--Table View Controller - Companies-->
+        <!--Companies-->
         <scene sceneID="qc9-wY-dEy">
             <objects>
                 <tableViewController title="Companies" id="Dka-Ll-8sI" sceneMemberID="viewController">
@@ -207,7 +197,7 @@
             </objects>
             <point key="canvasLocation" x="2195" y="1481"/>
         </scene>
-        <!--View Controller - Elevator Speech-->
+        <!--Elevator Speech-->
         <scene sceneID="CHQ-6g-94u">
             <objects>
                 <viewController title="Elevator Speech" id="yeM-3v-502" sceneMemberID="viewController">
