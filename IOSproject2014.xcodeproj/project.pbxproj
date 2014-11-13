@@ -16,11 +16,9 @@
 		3F5646441A0C933E009D6D1A /* IOSproject2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5646431A0C933E009D6D1A /* IOSproject2014Tests.m */; };
 		7CC528D81A1441FF00F05492 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC528D71A1441FF00F05492 /* Default-568h@2x.png */; };
 		7CC528DA1A1441FF00F05492 /* 60x60px-Tabbar-icons-IOS7-Style.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC528D91A1441FF00F05492 /* 60x60px-Tabbar-icons-IOS7-Style.xcassets */; };
-		7CC528DC1A1441FF00F05492 /* preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC528DB1A1441FF00F05492 /* preview.jpg */; };
 		7CC528DF1A1441FF00F05492 /* ResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC528DE1A1441FF00F05492 /* ResumeViewController.m */; };
 		7CC528E21A1441FF00F05492 /* ElevatorSpeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC528E11A1441FF00F05492 /* ElevatorSpeechViewController.m */; };
 		7CC528E81A1441FF00F05492 /* MainMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC528E71A1441FF00F05492 /* MainMenuTableViewController.m */; };
-		7CC528EA1A1441FF00F05492 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC528E91A1441FF00F05492 /* Images.xcassets */; };
 		7CC528EC1A1441FF00F05492 /* contactIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC528EB1A1441FF00F05492 /* contactIcon.png */; };
 		7CC528EE1A1441FF00F05492 /* uploadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC528ED1A1441FF00F05492 /* uploadIcon.png */; };
 		7CC528F01A1441FF00F05492 /* infoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC528EF1A1441FF00F05492 /* infoIcon.png */; };
@@ -49,18 +47,15 @@
 		3F5646341A0C933E009D6D1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F5646371A0C933E009D6D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3F56463D1A0C933E009D6D1A /* IOSproject2014Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSproject2014Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F5646421A0C933E009D6D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F5646431A0C933E009D6D1A /* IOSproject2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSproject2014Tests.m; sourceTree = "<group>"; };
 		7CC528D71A1441FF00F05492 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7CC528D91A1441FF00F05492 /* 60x60px-Tabbar-icons-IOS7-Style.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "60x60px-Tabbar-icons-IOS7-Style.xcassets"; path = "../../../Downloads/Tab-bar-icons-ios-7-style-PIXEDEN/60x60px-Tabbar-icons-IOS7-Style/60x60px-Tabbar-icons-IOS7-Style.xcassets"; sourceTree = "<group>"; };
-		7CC528DB1A1441FF00F05492 /* preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = preview.jpg; path = "../../../Downloads/Tab-bar-icons-ios-7-style-PIXEDEN/30x30px-Tabbar-icons-IOS7-Style/preview.jpg"; sourceTree = "<group>"; };
 		7CC528DD1A1441FF00F05492 /* ResumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeViewController.h; sourceTree = "<group>"; };
 		7CC528DE1A1441FF00F05492 /* ResumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeViewController.m; sourceTree = "<group>"; };
 		7CC528E01A1441FF00F05492 /* ElevatorSpeechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevatorSpeechViewController.h; sourceTree = "<group>"; };
 		7CC528E11A1441FF00F05492 /* ElevatorSpeechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElevatorSpeechViewController.m; sourceTree = "<group>"; };
 		7CC528E61A1441FF00F05492 /* MainMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuTableViewController.h; sourceTree = "<group>"; };
 		7CC528E71A1441FF00F05492 /* MainMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuTableViewController.m; sourceTree = "<group>"; };
-		7CC528E91A1441FF00F05492 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CC528EB1A1441FF00F05492 /* contactIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contactIcon.png; path = ../../../Downloads/contactIcon.png; sourceTree = "<group>"; };
 		7CC528ED1A1441FF00F05492 /* uploadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uploadIcon.png; path = ../../../Downloads/uploadIcon.png; sourceTree = "<group>"; };
 		7CC528EF1A1441FF00F05492 /* infoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = infoIcon.png; path = ../../../Downloads/infoIcon.png; sourceTree = "<group>"; };
@@ -122,12 +117,10 @@
 				7CC528F11A1441FF00F05492 /* speechIcon.png */,
 				7CC528ED1A1441FF00F05492 /* uploadIcon.png */,
 				3F5646341A0C933E009D6D1A /* Images.xcassets */,
-				7CC528DB1A1441FF00F05492 /* preview.jpg */,
 				3F5646361A0C933E009D6D1A /* LaunchScreen.xib */,
 				7CC528EB1A1441FF00F05492 /* contactIcon.png */,
 				3F5646271A0C933E009D6D1A /* Supporting Files */,
 				7CC528D91A1441FF00F05492 /* 60x60px-Tabbar-icons-IOS7-Style.xcassets */,
-				7CC528E91A1441FF00F05492 /* Images.xcassets */,
 			);
 			path = IOSproject2014;
 			sourceTree = "<group>";
@@ -145,17 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				3F5646431A0C933E009D6D1A /* IOSproject2014Tests.m */,
-				3F5646411A0C933E009D6D1A /* Supporting Files */,
 			);
 			path = IOSproject2014Tests;
-			sourceTree = "<group>";
-		};
-		3F5646411A0C933E009D6D1A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3F5646421A0C933E009D6D1A /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +225,6 @@
 				7CC528DA1A1441FF00F05492 /* 60x60px-Tabbar-icons-IOS7-Style.xcassets in Resources */,
 				3F5646331A0C933E009D6D1A /* Main.storyboard in Resources */,
 				7CC528F01A1441FF00F05492 /* infoIcon.png in Resources */,
-				7CC528EA1A1441FF00F05492 /* Images.xcassets in Resources */,
-				7CC528DC1A1441FF00F05492 /* preview.jpg in Resources */,
 				7CC528D81A1441FF00F05492 /* Default-568h@2x.png in Resources */,
 				3F5646381A0C933E009D6D1A /* LaunchScreen.xib in Resources */,
 				7CC528EE1A1441FF00F05492 /* uploadIcon.png in Resources */,
