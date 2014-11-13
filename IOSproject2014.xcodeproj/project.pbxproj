@@ -15,7 +15,10 @@
 		3F5646381A0C933E009D6D1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F5646361A0C933E009D6D1A /* LaunchScreen.xib */; };
 		3F5646441A0C933E009D6D1A /* IOSproject2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5646431A0C933E009D6D1A /* IOSproject2014Tests.m */; };
 		7CC528D81A1441FF00F05492 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC528D71A1441FF00F05492 /* Default-568h@2x.png */; };
+<<<<<<< Updated upstream
 		7CC528DA1A1441FF00F05492 /* 60x60px-Tabbar-icons-IOS7-Style.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC528D91A1441FF00F05492 /* 60x60px-Tabbar-icons-IOS7-Style.xcassets */; };
+=======
+>>>>>>> Stashed changes
 		7CC528DF1A1441FF00F05492 /* ResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC528DE1A1441FF00F05492 /* ResumeViewController.m */; };
 		7CC528E21A1441FF00F05492 /* ElevatorSpeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC528E11A1441FF00F05492 /* ElevatorSpeechViewController.m */; };
 		7CC528E81A1441FF00F05492 /* MainMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC528E71A1441FF00F05492 /* MainMenuTableViewController.m */; };
@@ -49,7 +52,10 @@
 		3F56463D1A0C933E009D6D1A /* IOSproject2014Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSproject2014Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5646431A0C933E009D6D1A /* IOSproject2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSproject2014Tests.m; sourceTree = "<group>"; };
 		7CC528D71A1441FF00F05492 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		7CC528D91A1441FF00F05492 /* 60x60px-Tabbar-icons-IOS7-Style.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "60x60px-Tabbar-icons-IOS7-Style.xcassets"; path = "../../../Downloads/Tab-bar-icons-ios-7-style-PIXEDEN/60x60px-Tabbar-icons-IOS7-Style/60x60px-Tabbar-icons-IOS7-Style.xcassets"; sourceTree = "<group>"; };
+=======
+>>>>>>> Stashed changes
 		7CC528DD1A1441FF00F05492 /* ResumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeViewController.h; sourceTree = "<group>"; };
 		7CC528DE1A1441FF00F05492 /* ResumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeViewController.m; sourceTree = "<group>"; };
 		7CC528E01A1441FF00F05492 /* ElevatorSpeechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevatorSpeechViewController.h; sourceTree = "<group>"; };
@@ -120,7 +126,10 @@
 				3F5646361A0C933E009D6D1A /* LaunchScreen.xib */,
 				7CC528EB1A1441FF00F05492 /* contactIcon.png */,
 				3F5646271A0C933E009D6D1A /* Supporting Files */,
+<<<<<<< Updated upstream
 				7CC528D91A1441FF00F05492 /* 60x60px-Tabbar-icons-IOS7-Style.xcassets */,
+=======
+>>>>>>> Stashed changes
 			);
 			path = IOSproject2014;
 			sourceTree = "<group>";
@@ -222,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CC528DA1A1441FF00F05492 /* 60x60px-Tabbar-icons-IOS7-Style.xcassets in Resources */,
 				3F5646331A0C933E009D6D1A /* Main.storyboard in Resources */,
 				7CC528F01A1441FF00F05492 /* infoIcon.png in Resources */,
 				7CC528D81A1441FF00F05492 /* Default-568h@2x.png in Resources */,
@@ -375,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = IOSproject2014/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -386,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = IOSproject2014/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
